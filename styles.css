@@ -6,7 +6,6 @@ background-color: #271b25
 .logo img {
     color: #B49AC1;
     width: 90px;
-
     padding: 5px;
     
 }
@@ -29,6 +28,7 @@ background-color: #271b25
     font-family: 'Arial', cursive;
     text-decoration-line: none;
     color: #B49AC1;
+    padding-bottom: 30px;
 }
     
 .main-nav {
@@ -36,11 +36,26 @@ background-color: #271b25
         justify-content: center;
         gap: 50px;
         font-size: 25px;
+        
     }
 .main-nav :hover {
     color: #E5D4E0;
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #271b25;
+  padding: 0px 300px;
+  border-bottom: 0px solid #dee2e6;
+  font-family: sans-serif;
+}
+
+.banner-img {
+  width: 1000px; 
+  height: auto;
+  margin-right: 600px;
+}
 img {
     max-width: 100%;
 }

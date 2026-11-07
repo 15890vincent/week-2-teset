@@ -1,6 +1,9 @@
 body {
 margin: 0px;
-background-color: #271b25;
+padding: 0px;
+overflow-x: hidden;
+    background: linear-gradient(to bottom, #261b24, #342c34, #1a1519
+)
 }
 
 .logo img {
@@ -47,7 +50,7 @@ background-color: #271b25;
 .banner {
   display: flex;
   justify-content: center;
-  background-color: #271b25;
+  background-color: #2b242b;
   padding: 0px 0;
   border-bottom: 0px solid #dee2e6;
   font-family: sans-serif;
@@ -135,4 +138,47 @@ justify-content: center;
     color: #B49AC1;
     margin: 0px;
     padding: 10px
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-top: 15px double #B49AC1;
+}
+
+.container2 img {
+  width: 400px;      
+  height: auto;
+  border: 0px solid #B49AC1;
+  border-radius: 30px;
+}
+
+.text-content2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Carattere', cursive;
+    font-size: 50px;
+  max-width: 400px; 
+  color: #B49AC1;
+}
+
+.description2 {
+    font-family: 'Arial', cursive;
+    font-size: 30px;
+    color: #B49AC1;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+  .container2 img {
+    width: 100%;        
+  }
 }

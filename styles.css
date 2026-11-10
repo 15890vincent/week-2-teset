@@ -17,7 +17,7 @@ background: linear-gradient(to bottom, #261b24, #342c34, #1a1519
 .main-header {
     gap: 10px;
     padding: 5px;
-    font-size: 28px;
+    font-size: 50px;
     margin: 0px;
 }
 
@@ -26,6 +26,7 @@ background: linear-gradient(to bottom, #261b24, #342c34, #1a1519
     justify-self: center;
     font-family: 'Carattere', cursive;
     color: #B49AC1;
+    font-size: 50px;
     margin: 0px;
 }
 
@@ -56,27 +57,26 @@ background: linear-gradient(to bottom, #261b24, #342c34, #1a1519
   font-family: sans-serif;
 }
 
-.banner-img {
+.banner img {
     display:flex; 
     justify-content: center;
     height: auto;
+    max-width: 100%;
     margin-right: 0px;
-    padding: 30px;
+    padding: 0px;
     border-radius: 0px;
-    border: 15px double #B49AC1;
+    border: 10px double #B49AC1;
     gap: 20px;
 }
 
-img {
-    max-width: 100%;
-}
-
 .container {
+  background-color: #120810;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  gap: 20px;  
-  padding: 20px;       
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 10px double #B49AC1;
 }
 
 .container img {
@@ -113,7 +113,7 @@ img {
 
 .main-footer {
     color: #B49AC1;
-background-color: #120810;
+    background-color: #120810;
 }
 
 .social-links {
@@ -142,18 +142,21 @@ justify-content: center;
 
 .container2 {
   display: flex;
-  justify-content: center;
+  justify-content: space space-evenly;
   align-items: center; 
-  border-top: 15px double #B49AC1;
 }
 
 .container2 img {
-  width: 300px;      
+  width: 400px;      
   height: auto;
   border: 0px solid #B49AC1;
   border-radius: 30px;
 }
 
+.back-img {
+  display: flex;
+  justify-content: center;
+}
 .text-content2s {
   display: flex;
   justify-content: center;
@@ -182,6 +185,7 @@ justify-content: center;
     width: 100%;        
   }
 }
+
 
 /* page 2 ilustrations */
 
